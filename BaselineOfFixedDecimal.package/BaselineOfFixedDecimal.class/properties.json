@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "HernanMoralesDurand 9/2/2018 22:43",
+	"super" : "BaselineOf",
+	"category" : "BaselineOfFixedDecimal",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "BaselineOfFixedDecimal",
+	"type" : "normal"
+}

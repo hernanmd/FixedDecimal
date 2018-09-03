@@ -1,0 +1,3 @@
+*FixedDecimal
+isFixedDecimal
+	^ false

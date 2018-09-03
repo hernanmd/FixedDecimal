@@ -1,0 +1,19 @@
+{
+	"commentStamp" : "cbc 8/30/2007 20:16",
+	"super" : "Number",
+	"category" : "FixedDecimal",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"PowersOf10"
+	],
+	"instvars" : [
+		"number",
+		"scale",
+		"part1",
+		"part2",
+		"negative"
+	],
+	"name" : "FixedDecimal",
+	"type" : "normal"
+}
