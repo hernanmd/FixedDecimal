@@ -5,7 +5,7 @@ Representation of precise decimals in Pharo Smalltalk
 
 ```smalltalk
 Metacello new
-	repository: 'github://hernanmd/FixedDecimal/repository';	
+	repository: 'github://SabineMa/FixedDecimal/repository';	
 	baseline: 'FixedDecimal';
 	load.
 ```
