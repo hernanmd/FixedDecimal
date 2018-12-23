@@ -1,5 +1,5 @@
 # FixedDecimal
-Representation of precise decimals in Pharo Smalltalk
+Representation of precise decimals in Pharo Smalltalk.
 
 # Installation
 
