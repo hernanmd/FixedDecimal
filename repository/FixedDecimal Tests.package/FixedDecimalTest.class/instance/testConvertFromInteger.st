@@ -5,14 +5,14 @@ testConvertFromInteger
 
 	| fd |
 	fd := FixedDecimal newFromNumber: 13 scale: 6.
-	self assert: 6 = fd scale.
-	self assert: ('13.000000' = fd printString).
+	self assert: 6 equals: fd scale.
+	self assert: '13.000000' equals: fd printString.
 	fd := FixedDecimal newFromNumber: -13 scale: 6.
-	self assert: 6 = fd scale.
-	self assert: ('-13.000000' = fd printString).
+	self assert: 6 equals: fd scale.
+	self assert: '-13.000000' equals: fd printString.
 	fd := FixedDecimal newFromNumber: 130000000013 scale: 6.
-	self assert: 6 = fd scale.
-	self assert: ('130000000013.000000' = fd printString).
+	self assert: 6 equals: fd scale.
+	self assert: '130000000013.000000' equals: fd printString.
 	fd := FixedDecimal newFromNumber: -130000000013 scale: 6.
-	self assert: 6 = fd scale.
-	self assert: ('-130000000013.000000' = fd printString)
+	self assert: 6 equals: fd scale.
+	self assert: '-130000000013.000000' equals: fd printString
