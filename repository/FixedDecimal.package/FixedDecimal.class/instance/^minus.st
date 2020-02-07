@@ -15,7 +15,7 @@ arithmetic
 		nPart1 := part1 - operand part1.
 		^self class new setPart1: nPart1 part2: nPart2 scale: scale negative: nNegative number: nNumber
 		].
-	^((operand isKindOf: FixedDecimal0) and: [operand scale > scale]) ifTrue: [
+	^((operand isKindOf: self class) and: [operand scale > scale]) ifTrue: [
 		self class newFromNumber: (self asFraction - operand asFraction) scale: operand scale
 	] ifFalse: [
 		^self + operand negated
