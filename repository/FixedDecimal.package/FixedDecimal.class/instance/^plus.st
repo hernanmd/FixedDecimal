@@ -12,7 +12,7 @@ arithmetic
 			^self class new setPart1: nPart1 part2: nPart2 scale: scale negative: negative number: (number + operand number)
 			].
 	^((operand isKindOf: ScaledDecimal) and: [operand scale > scale]) ifTrue: [
-		FixedDecimal newFromNumber: (operand asFraction + self asFraction) scale: operand scale
+		self class newFromNumber: (operand asFraction + self asFraction) scale: operand scale
 	] ifFalse: [
-		FixedDecimal newFromNumber: (operand + self asFraction) scale: (scale)
+		self class newFromNumber: (operand + self asFraction) scale: (scale)
 	].

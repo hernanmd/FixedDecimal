@@ -1,3 +1,3 @@
 arithmetic
 reciprocal
-	^FixedDecimal newFromNumber: (self asFraction reciprocal) scale: scale
+	^ self class newFromNumber: (self asFraction reciprocal) scale: scale
